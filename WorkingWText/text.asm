@@ -1,7 +1,7 @@
 global _start
 
 section .data ; Section to write memory
-	msg db "Hello I'm Juani", 0x0a ; 0x0a is the hex for 410, newline character
+	msg db "Hello I'm Juani, wtf is this", 0x0a ; 0x0a is the hex for 410, newline character
 	len equ $ - msg ; We substract the location after msg from inital location
 
 section .text ; We return to our main section where code will run
